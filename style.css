@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  height: 7vh;
+  width: 100%;
+  background-color: #131921;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.search {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.search input {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.search button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #febd69;
+  color: black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.options > div {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.options img {
+  height: 20px;
+  margin-right: 5px;
+  filter: invert(1);
+}
+
+.options details {
+  margin-left: 15px;
+}
+
+.options li {
+  list-style: none;
+  margin-left: 15px;
+}
+
+.Inter-section {
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background-color: #1e252f;
+  color: white;
+}
+.Inter-section img {
+  height: 3vh;
+  filter: invert(1);
+}
+.Inter-section span {
+  width: 7%;
+}
+.background {
+  height: 100vh;
+  background-image: url(assets/background.png);
+  background-size: cover;
+  position: relative;
+}
+.amazone-link {
+  height: 5%;
+  width: 98%;
+  color: black;
+ padding-top: 16%;
+ margin: auto;
+ text-align: center;
+ align-items: center;
+}
+.amazone-link p {
+    background-color: aliceblue;
+    height: 30px;
+    width: 98%;
+    align-content: center;
+    text-align: center;
+}
+.card{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(238, 233, 233);
+   margin-top: 50px;
+   margin-left: 20px ;
+}
+.card-heading{
+    height: 50px;
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.product{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(243, 249, 249);
+    margin: 2px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+.saperation{
+    height: 31vh;
+}
+.footer {
+    background-color: #1e252f;
+    color: #f8f8f8;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+    color: #f8f8f8;
+}
+
+.footer-section p,
+.footer-section ul {
+    color: #d0d0d0;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #d0d0d0;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #1a1f27;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #d0d0d0;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
